@@ -22,19 +22,29 @@ body {
 .container {
 
     width: 30rem;
+    height:30rem;
     padding: 10px;
-border-radius: 10px;
-font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    border-radius: 10px;
+    font-size: 40px;
     background-color: white;
     text-align: center;
 }
 button{
-    margin-top: 5px;
-    width: 100%;
-    background-color: black;
+    margin: 5px;
+    padding: 20px;
+    width: 70%;
+    background-color: rgb(61, 3, 3);
     color:white;
     border:none;
     border-radius: 5px;
     font-size: 30px;
-    display: block;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* display: block; */
 }
